@@ -33,8 +33,8 @@ REMOTE-LABORATORY/
 │    └── summary_pulse_values.sql
 ├── src/
 │    └── db_dao.py             # Database access object (RemoteLaboratoryDAO)
-├── collecting_data_opcua_old.py  # [legacy] Script for OPC UA communication (optional)
-├── collecting_profinet.py        # [legacy] Script for Profinet communication (optional)
+├── collecting_data_opcua_old.py  # [legacy] Script for OPC UA communication
+├── collecting_profinet.py        # [legacy] Script for Profinet communication
 ├── insert_pulse_train_on_database.py  # Utility to insert custom pulse trains
 ├── LICENSE
 ├── README.md                  # Project documentation (this file)
@@ -78,6 +78,7 @@ pip install python-snap7 mysql-connector-python
 ```bash
 python collecting_data_opcua_old.py
 ```
+
 > (You can adapt this command if using another acquisition script.)
 
 ---
@@ -85,6 +86,7 @@ python collecting_data_opcua_old.py
 ### Configuration
 
 Inside the code (`collecting_data_opcua_old.py`), you can modify:
+
 - `plc_ip` → PLC IP address (e.g., `"192.168.0.10"`)
 - `rack`, `slot` → PLC hardware configuration
 - `db_number`, `byte_index` → Memory address to read
@@ -118,26 +120,3 @@ All unnecessary files (such as cache, virtual environments, local settings, etc.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Author
-
-Developed by **Gepeto**.
-
----
-
-## Future Improvements (Optional)
-
-- [ ] Environment variable support for DB credentials.
-- [ ] Real-time monitoring dashboard (using FastAPI or Flask).
-- [ ] Pattern recognition module using Machine Learning.
-
----
-
-## Screenshot
-
-![Remote Laboratory Data Collection](./path/to/your/screenshot.png)
-
-> *(Replace this with your actual screenshot if desired)*
-
