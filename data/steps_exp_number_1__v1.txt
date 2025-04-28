@@ -1,0 +1,2 @@
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo0: [False, False, False, False, False] | Valor do passo: 0 | time_to_change: 0.003166675567626953

@@ -1,0 +1,42 @@
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo0: [False, False, True, False, True] | Valor do passo: 5 | timestamp: 1745529127.213011
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo1: [False, False, True, False, True] | Valor do passo: 5 | timestamp: 1745529777.758975
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo2: [False, False, True, False, True] | Valor do passo: 5 | timestamp: 1745529778.1684358
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo3: [True, False, True, False, True] | Valor do passo: 21 | timestamp: 1745529801.465172
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo4: [False, False, True, False, True] | Valor do passo: 5 | timestamp: 1745529802.011579
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo5: [False, True, True, False, True] | Valor do passo: 13 | timestamp: 1745529802.100428
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo6: [False, True, True, True, True] | Valor do passo: 15 | timestamp: 1745529807.0915573
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo7: [False, True, True, True, False] | Valor do passo: 14 | timestamp: 1745529810.1890857
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo8: [False, True, True, False, False] | Valor do passo: 12 | timestamp: 1745529812.15331
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo9: [False, True, True, False, True] | Valor do passo: 13 | timestamp: 1745529814.3834462
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo10: [False, False, True, False, True] | Valor do passo: 5 | timestamp: 1745529815.0987759
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo11: [False, False, True, False, True] | Valor do passo: 5 | timestamp: 1745529815.22329
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo12: [False, False, True, False, False] | Valor do passo: 4 | timestamp: 1745529817.2972696
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo13: [False, False, True, False, True] | Valor do passo: 5 | timestamp: 1745529822.5146332
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo14: [False, False, True, False, True] | Valor do passo: 5 | timestamp: 1745529823.4003615
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo15: [False, True, True, False, True] | Valor do passo: 13 | timestamp: 1745529826.2641525
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo16: [False, True, True, False, False] | Valor do passo: 12 | timestamp: 1745529826.3509648
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo17: [False, True, True, True, False] | Valor do passo: 14 | timestamp: 1745529828.2727127
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo18: [False, True, True, True, True] | Valor do passo: 15 | timestamp: 1745529828.537219
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo19: [False, False, True, True, True] | Valor do passo: 7 | timestamp: 1745529828.6814528
+IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
+Passo20: [False, False, False, True, True] | Valor do passo: 3 | timestamp: 1745529830.4290717

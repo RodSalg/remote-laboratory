@@ -1,0 +1,47 @@
+Passo,Step,Valor do Passo,Timestamp
+0,"[False, False, True, False, True]",5,1745532798.5654676
+1,"[False, False, True, False, True]",5,1745532808.1476822
+2,"[False, False, True, False, True]",5,1745532809.3730297
+3,"[False, False, True, False, True]",5,1745532810.5528283
+4,"[False, False, True, False, True]",5,1745532810.8212368
+5,"[True, False, True, False, True]",21,1745532816.6411057
+6,"[False, False, True, False, True]",5,1745532817.317506
+7,"[False, True, True, False, True]",13,1745532817.362509
+8,"[False, True, True, True, True]",15,1745532822.3725379
+9,"[False, True, True, True, False]",14,1745532825.4427645
+10,"[False, True, True, False, False]",12,1745532827.4256625
+11,"[False, True, True, False, True]",13,1745532829.6511905
+12,"[False, False, True, False, True]",5,1745532829.8837228
+13,"[False, False, True, False, True]",5,1745532830.151502
+14,"[False, False, True, False, False]",4,1745532832.209605
+15,"[False, False, True, False, True]",5,1745532837.4556637
+16,"[False, False, True, False, True]",5,1745532839.2999961
+17,"[False, True, True, False, True]",13,1745532839.5490057
+18,"[False, True, True, False, False]",12,1745532842.2136922
+19,"[False, True, True, True, False]",14,1745532844.170891
+20,"[False, True, True, True, True]",15,1745532844.4721224
+21,"[False, False, True, True, True]",7,1745532844.602192
+22,"[False, False, False, True, True]",3,1745532847.3491263
+23,"[False, False, False, False, True]",1,1745532847.4081304
+24,"[False, False, True, False, True]",5,1745532847.5391695
+
+
+25,"[False, False, True, False, True]",5,1745532865.5507183
+26,"[False, False, True, False, True]",5,1745532866.2732723
+27,"[False, False, True, False, True]",5,1745532867.6980977
+28,"[False, False, True, False, True]",5,1745532868.3356392
+29,"[False, False, True, False, True]",5,1745532869.3367045
+30,"[False, False, True, False, True]",5,1745532869.5760138
+31,"[True, False, True, False, True]",21,1745532873.8797805
+32,"[False, False, True, False, True]",5,1745532874.5624506
+33,"[False, True, True, False, True]",13,1745532874.677578
+34,"[False, True, True, True, True]",15,1745532879.648191
+35,"[False, True, True, True, False]",14,1745532882.7074633
+36,"[False, True, True, False, False]",12,1745532884.7005665
+37,"[False, True, True, False, True]",13,1745532886.9375012
+38,"[False, False, True, False, True]",5,1745532887.154635
+39,"[False, False, True, False, True]",5,1745532887.4737282
+40,"[False, False, True, False, False]",4,1745532889.5055182
+41,"[False, False, True, False, True]",5,1745532894.713338
+42,"[False, False, True, False, True]",5,1745532896.5844154
+43,"[False, True, True, False, True]",13,1745532896.855436
