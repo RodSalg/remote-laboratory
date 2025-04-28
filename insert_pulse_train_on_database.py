@@ -3,7 +3,7 @@ from src.db_dao import RemoteLaboratoryDAO
 banco = RemoteLaboratoryDAO()
     
 last_experiment_id = banco.get_last_experiment_id()  # Pegando o último experimento realizado
-last_experiment_id = 35
+# last_experiment_id = 35
 # Coletando uma lista de pulse_train do último experimento
 pulse_trains = banco.get_pulse_values_by_experiment(last_experiment_id)
 
