@@ -1,2 +1,0 @@
-IOs: ['in1', 'in2', 'in3', 'in4', 'in5']
-Passo0: [False, False, False, True, True] | Valor do passo: 3 | timestamp: 1745530087.1989458
