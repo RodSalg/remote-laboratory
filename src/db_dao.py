@@ -1,5 +1,6 @@
 import mysql.connector
 from mysql.connector import Error
+import json
 
 class RemoteLaboratoryDAO:
     
@@ -42,27 +43,48 @@ class RemoteLaboratoryDAO:
 
 
 
-    def insert_data_into_database(self,experiment_number, step, pulse_train, pulse_value, time_to_change, experiment_name):
-        
-        sql = f'INSERT INTO `cae_dr`.`dadoscoletados2` ( `experiment_id`,`step`, `pulse_train`, `pulse_value`, `experimentName`, `timeToChange`) VALUES ({experiment_number}, {step}, "{pulse_train}", {pulse_value}, "{experiment_name}", "{time_to_change}");'
-        
+    def insert_data_into_database(self, experiment_number, step, pulse_train, pulse_value, time_to_change, experiment_name):
         try:
-
             mydb = self.get_banco()
-
             mycursor = mydb.cursor()
-
-            mycursor.execute(sql)
-
-            mydb.commit()      
-
+            
+            # Converta o step (lista) para JSON para salvar como string no banco
+            step_json = json.dumps(step)
+            
+            sql = '''
+                INSERT INTO `cae_dr`.`dadoscoletados2` 
+                (experiment_id, step, pulse_train, pulse_value, experimentName, timeToChange)
+                VALUES (%s, %s, %s, %s, %s, %s)
+            '''
+            
+            mycursor.execute(sql, (experiment_number, step_json, pulse_train, pulse_value, experiment_name, time_to_change))
+            mydb.commit()
         except Error as e:
-            
             print(f"Erro ao tentar inserir os dados no banco de dados: \n {e}")
-
         finally:
-            
             mydb.close()
+
+    # def insert_data_into_database(self,experiment_number, step, pulse_train, pulse_value, time_to_change, experiment_name):
+        
+    #     sql = f'INSERT INTO `cae_dr`.`dadoscoletados2` ( `experiment_id`,`step`, `pulse_train`, `pulse_value`, `experimentName`, `timeToChange`) VALUES ({experiment_number}, {step}, "{pulse_train}", {pulse_value}, "{experiment_name}", "{time_to_change}");'
+        
+    #     try:
+
+    #         mydb = self.get_banco()
+
+    #         mycursor = mydb.cursor()
+
+    #         mycursor.execute(sql)
+
+    #         mydb.commit()      
+
+    #     except Error as e:
+            
+    #         print(f"Erro ao tentar inserir os dados no banco de dados: \n {e}")
+
+    #     finally:
+            
+    #         mydb.close()
 
 
     def get_last_experiment_id(self):
@@ -161,6 +183,64 @@ class RemoteLaboratoryDAO:
                 mydb.close()
 
 
-# teste = RemoteLaboratoryDAO()
+    def get_plant_config(self, experiment_name: str):
+        try:
+            mydb = mysql.connector.connect(
+                host='localhost',
+                database='cae_dr',
+                user='root',
+                password='1234'
+            )
+            cursor = mydb.cursor(dictionary=True)
+            sql = "SELECT * FROM plant_config WHERE experiment_name = %s"
+            cursor.execute(sql, (experiment_name,))
+            config = cursor.fetchone()
+            cursor.close()
+            mydb.close()
+            if config is None:
+                raise ValueError(f"Configuração para experimento '{experiment_name}' não encontrada")
+            return config
+        except Exception as e:
+            print(f"Erro ao buscar configuração do experimento: {e}")
+            return None
+
+    def list_plant_configs(self):
+        try:
+            mydb = mysql.connector.connect(
+                host='localhost',
+                database='cae_dr',
+                user='root',
+                password='1234'
+            )
+            cursor = mydb.cursor()
+            cursor.execute("SELECT experiment_name FROM plant_config ORDER BY experiment_name ASC")
+            plants = cursor.fetchall()
+            cursor.close()
+            mydb.close()
+            return [p[0] for p in plants]
+        except Exception as e:
+            print(f"Erro ao buscar plantas no banco: {e}")
+            return []
+        
+    def insert_data_with_duration(self, experiment_number, step, pulse_train, pulse_value, time_to_change, experiment_name, duration):
+        try:
+            mydb = self.get_banco()
+            mycursor = mydb.cursor()
+
+            step_json = json.dumps(step)
+            
+            sql = '''
+                INSERT INTO dadoscoletados2 
+                (experiment_id, step, pulse_train, pulse_value, experimentName, timeToChange, duration) 
+                VALUES (%s, %s, %s, %s, %s, %s, %s)
+            '''
+            mycursor.execute(sql, (experiment_number, step_json, pulse_train, pulse_value, experiment_name, time_to_change, duration))
+            mydb.commit()
+        except Error as e:
+            print(f"Erro ao tentar inserir os dados no banco de dados: \n {e}")
+        finally:
+            mydb.close()
+
+    # teste = RemoteLaboratoryDAO()
 
 
