@@ -121,3 +121,5 @@ venv.bak/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+collecting_profinet_v2.py
