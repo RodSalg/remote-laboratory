@@ -34,3 +34,13 @@ CREATE TABLE `dadoscoletados_summary` (
   `time_stamp`    DATETIME(3)   NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
   PRIMARY KEY (`id`)
 );
+
+
+-- 3) dadoscoletados_summary
+CREATE TABLE `ground_truth_patterns` (
+  `id`              INT           NOT NULL AUTO_INCREMENT,
+  `experiment_name`  VARCHAR(45)    NOT NULL,
+  `ground_truth`         VARCHAR(9999) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uq_experiment_name` (`experiment_name`)
+);
