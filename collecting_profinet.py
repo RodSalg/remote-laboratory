@@ -118,6 +118,7 @@ def monitor_plc(plc: snap7.client.Client, db_number: int, byte_index: int, IOs: 
         print(f"[monitor_plc] Usando experiment_number = {experiment_number}")
     except Exception as e:
         print(f"[monitor_plc] Erro ao pegar last_experiment_id: {e}")
+        print("Experiment number = 1\n")
         experiment_number = 1
 
     txt_filename, csv_filename = check_and_create_new_version(f'{experiment_name}_{experiment_number}_')
@@ -125,7 +126,7 @@ def monitor_plc(plc: snap7.client.Client, db_number: int, byte_index: int, IOs: 
     contador = 0
     old_bits = None
 
-    tempo_limite = 120
+    tempo_limite = 30
     start_time = time.time()
     estado_inicio_time = None
 
