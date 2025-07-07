@@ -1,0 +1,79 @@
+Passo,Step,Valor do Passo,Duracao (s),Timestamp
+0,"[True, False, False, False, False, False, False, True]",129,9.201221704483032,1747875511.3672948
+1,"[False, False, False, False, False, False, False, True]",1,1.9243052005767822,1747875513.2906046
+2,"[False, False, True, False, False, False, False, True]",33,2.0122318267822266,1747875515.302826
+3,"[False, False, False, False, False, False, False, True]",1,0.02298760414123535,1747875515.3258314
+4,"[False, False, True, False, False, False, False, True]",33,0.07396960258483887,1747875515.4037993
+5,"[False, True, True, False, False, False, False, True]",97,0.035996198654174805,1747875515.439794
+6,"[False, False, True, False, False, False, False, True]",33,0.6971590518951416,1747875516.132948
+7,"[False, False, False, False, False, False, False, True]",1,0.08536958694458008,1747875516.217319
+8,"[False, False, True, False, False, False, False, True]",33,0.5805690288543701,1747875516.797888
+9,"[False, False, False, False, False, False, False, True]",1,0.16615891456604004,1747875516.9650402
+10,"[False, False, True, False, False, False, False, True]",33,0.04715561866760254,1747875517.0122042
+11,"[False, False, False, False, False, False, False, True]",1,0.014998674392700195,1747875517.0272028
+12,"[False, False, False, False, True, False, False, True]",9,1.9348268508911133,1747875518.9620302
+13,"[False, False, False, False, False, False, False, True]",1,0.19635224342346191,1747875519.1583836
+
+14,"[True, False, False, False, False, False, False, True]",129,7.763503789901733,1747875526.9218862
+15,"[False, False, False, False, False, False, False, True]",1,1.9347703456878662,1747875528.8566585
+16,"[False, False, True, False, False, False, False, True]",33,2.03377366065979,1747875530.8894281
+17,"[False, False, False, False, False, False, False, True]",1,0.008868932723999023,1747875530.9594007
+18,"[False, False, True, False, False, False, False, True]",33,0.06512236595153809,1747875530.9634194
+19,"[False, True, True, False, False, False, False, True]",97,0.04548287391662598,1747875531.0089023
+20,"[False, False, True, False, False, False, False, True]",33,0.6745846271514893,1747875531.6844854
+21,"[False, False, False, False, False, False, False, True]",1,0.09745573997497559,1747875531.7809427
+22,"[False, False, True, False, False, False, False, True]",33,0.5675499439239502,1747875532.3494816
+23,"[False, False, False, False, False, False, False, True]",1,0.14357876777648926,1747875532.4920714
+24,"[False, False, True, False, False, False, False, True]",33,0.06904959678649902,1747875532.561121
+25,"[False, False, False, False, False, False, False, True]",1,0.018013477325439453,1747875532.5791345
+26,"[False, False, False, False, True, False, False, True]",9,1.923823356628418,1747875534.5039654
+27,"[False, False, False, False, False, False, False, True]",1,0.20415043830871582,1747875534.7071083
+
+
+28,"[True, False, False, False, False, False, False, True]",129,10.298726320266724,1747875545.0058346
+29,"[False, False, False, False, False, False, False, True]",1,1.918402910232544,1747875546.9252381
+30,"[False, False, True, False, False, False, False, True]",33,2.0162158012390137,1747875548.9414513
+31,"[False, False, False, False, False, False, False, True]",1,0.02200007438659668,1747875548.963471
+32,"[False, False, True, False, False, False, False, True]",33,0.06851577758789062,1747875549.0319757
+33,"[False, True, True, False, False, False, False, True]",97,0.03300762176513672,1747875549.065989
+34,"[False, False, True, False, False, False, False, True]",33,0.6555078029632568,1747875549.7204895
+35,"[False, False, False, False, False, False, False, True]",1,0.09229087829589844,1747875549.8128128
+36,"[False, False, True, False, False, False, False, True]",33,0.5777163505554199,1747875550.3900418
+37,"[False, False, False, False, False, False, False, True]",1,0.13832974433898926,1747875550.5278215
+38,"[False, False, True, False, False, False, False, True]",33,0.06600141525268555,1747875550.593823
+39,"[False, False, False, False, False, False, False, True]",1,0.02316904067993164,1747875550.616992
+40,"[False, False, False, False, True, False, False, True]",9,1.9125723838806152,1747875552.530432
+41,"[False, False, False, False, False, False, False, True]",1,0.1900012493133545,1747875552.7195656
+
+
+42,"[True, False, False, False, False, False, False, True]",129,10.993387460708618,1747875563.7139595
+43,"[False, False, False, False, False, False, False, True]",1,1.9120421409606934,1747875565.6259944
+44,"[False, False, True, False, False, False, False, True]",33,2.000265121459961,1747875567.6262555
+45,"[False, False, False, False, False, False, False, True]",1,0.02055978775024414,1747875567.6468127
+46,"[False, False, True, False, False, False, False, True]",33,0.07590889930725098,1747875567.7267554
+47,"[False, True, True, False, False, False, False, True]",97,0.03747439384460449,1747875567.7601929
+48,"[False, False, True, False, False, False, False, True]",33,0.7152657508850098,1747875568.475436
+49,"[False, False, False, False, False, False, False, True]",1,0.09044170379638672,1747875568.5659122
+50,"[False, False, True, False, False, False, False, True]",33,0.5737497806549072,1747875569.139661
+51,"[False, False, False, False, False, False, False, True]",1,0.14396333694458008,1747875569.282624
+52,"[False, False, True, False, False, False, False, True]",33,0.059009552001953125,1747875569.3416336
+53,"[False, False, False, False, False, False, False, True]",1,0.02837657928466797,1747875569.3700101
+54,"[False, False, False, False, True, False, False, True]",9,1.9165847301483154,1747875571.2865949
+55,"[False, False, False, False, False, False, False, True]",1,0.1999061107635498,1747875571.486501
+
+
+56,"[True, False, False, False, False, False, False, True]",129,7.889651536941528,1747875579.3761525
+57,"[False, False, False, False, False, False, False, True]",1,1.9395577907562256,1747875581.3157103
+58,"[False, False, True, False, False, False, False, True]",33,2.012791156768799,1747875583.3288865
+59,"[False, False, False, False, False, False, False, True]",1,0.008394241333007812,1747875583.337893
+60,"[False, False, True, False, False, False, False, True]",33,0.07052373886108398,1747875583.4074194
+61,"[False, True, True, False, False, False, False, True]",97,0.048011064529418945,1747875583.4554305
+62,"[False, False, True, False, False, False, False, True]",33,0.7136831283569336,1747875584.1691136
+63,"[False, False, False, False, False, False, False, True]",1,0.0500025749206543,1747875584.2191162
+64,"[False, False, True, False, False, False, False, True]",33,0.6206619739532471,1747875584.8397782
+65,"[False, False, False, False, False, False, False, True]",1,0.14337897300720215,1747875584.9831572
+66,"[False, False, True, False, False, False, False, True]",33,0.061004638671875,1747875585.0441618
+67,"[False, False, False, False, False, False, False, True]",1,0.01753830909729004,1747875585.0617
+68,"[False, False, False, False, True, False, False, True]",9,1.9127428531646729,1747875586.975438
+69,"[False, False, False, False, False, False, False, True]",1,0.2070930004119873,1747875587.182527
+70,"[False, False, False, False, False, False, False, True]",1,30.003605127334595,1747875617.185141
